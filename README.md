@@ -1,16 +1,16 @@
 # pokedex_app
 
-A new Flutter application.
-
+Is a projects created by Matheus bedoni using Flutter
+ 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This application tries to emulate a pokedex, it uses https://pokeapi.co/api/v2/ as a backend to search for pokemons
 
-A few resources to get you started if this is your first Flutter project:
+This app used MVP design architecture
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+For state management I used GetX, I always worked with Bloc on my projects, but I wanted to work with her on this project
+A very simple library compared to the Bloc
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+It also uses sqlite to save pokemons in the user's pokedex, sqlite has an important role here, being in list, adding and deleting pokemons
+
+Among other libraries, if you think it's important, help me improve and say your opinion about the project
